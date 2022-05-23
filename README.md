@@ -13,6 +13,7 @@ Account/app/Http/Controllers/AccountList.php
 
 
 アカウント作成機能
+
 Account/app/Http/Controllers/AccountCreate.php
 
 Account/app/Http/Controllers/AccountCreateCheck.php
