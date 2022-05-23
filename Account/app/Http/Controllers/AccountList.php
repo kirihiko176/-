@@ -10,6 +10,7 @@ class AccountList extends Controller
     public function accountlist(Request $request){
 
         $output = session()->get('login_session');
+        session()->forget('account_id_session');
     
         $data = [
             'account_id'=>$request->account_id,
