@@ -74,8 +74,6 @@ class Login extends Controller
                     ->where('account.account_id',$data['account_id'])
                     ->first();
 
-
-            
                     //ハッシュ化して突合
                     if(Hash::check($data['password'],$results->password)){
 

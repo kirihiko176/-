@@ -9,7 +9,7 @@ class password extends Model
 {
     use HasFactory;
 
-    protected $table = 'account';
+    protected $table = 'password';
 
     protected $primaryKey = ['account_id','serial_number'];
     

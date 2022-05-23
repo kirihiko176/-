@@ -14,7 +14,7 @@
         </form>
 
         @if (session('message'))
-        <p color: #cc6262>
+        <p style='color:#cc6262';>
         {{ session('message') }}
         </p>
         @endif

@@ -6,8 +6,10 @@
     </head>
     
     <body>
-    <td><a href="../accountcreate " class="">アカウント作成</a></td>
-    <td><a href="../accountrenewal" class="">アカウント更新</a></td>
-    <td><a href="../passwordchange" class="">パスワード変更</a></td>
+    <form action="login" method="get">
+    @csrf
+    <button type="submit">ログアウト</button>
+    </form>
+    <td><a href="../accountlist " class="">アカウント一覧</a></td>
     </body>
 </html>
