@@ -50,7 +50,7 @@
                 <tr>
                 <th>削除</th>
                 <td>
-                    @if(old("admin",$results->admin)==1)
+                    @if(old("admin",$results->delete)==1)
                     <input type="checkbox" value="1" name="delete" checked="checked">
                     @else
                     <input type="checkbox" value="1" name="delete">
